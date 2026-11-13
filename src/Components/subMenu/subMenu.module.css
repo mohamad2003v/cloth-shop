@@ -1,0 +1,11 @@
+.div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    gap:0px;
+    font-family: tahoma;
+}
+.div2{
+    /* border:1px solid #eee; */
+    width:25%;
+}

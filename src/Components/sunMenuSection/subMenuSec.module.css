@@ -1,0 +1,37 @@
+.div{
+    /* border:1px solid #000; */
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow:row wrap;
+    /* justify-content: start; */
+    /* align-items: center; */
+}
+.h4{
+    /* border:1px solid red; */
+    width: 100%;
+    display: flex;
+    gap:8px;
+    margin: 0;
+    border-right: 3px solid red;
+    padding: 5px 10px;
+    font-size:14px;
+    text-wrap: nowrap;
+}
+.h4:hover{
+    color:rgb(255, 129, 154);
+    cursor: pointer;
+}
+.divh6{
+    color:#222;
+    /* border:1px solid blue; */
+    text-align: start;
+
+}
+.h6{
+    margin:10px 5px;
+    cursor: pointer;
+}
+.h6:hover{
+    color: rgb(0, 108, 0);
+}
