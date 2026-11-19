@@ -4,12 +4,10 @@ import { subMenuData } from "./data";
 
 const SubMenu = () => {
   const data = subMenuData;
-  console.log();
   return (
     <div className={style.div}>
       <div className={style.div2}>
         {data.slice(0, 5).map((item, key) => {
-          console.log("item is =", item);
           return (
             <SubMenuSec key={key} title={item.title} subTitle={item.data} />
           );
@@ -17,7 +15,6 @@ const SubMenu = () => {
       </div>
       <div className={style.div2}>
         {data.slice(5, 10).map((item, key) => {
-          console.log("item is =", item);
           return (
             <SubMenuSec key={key} title={item.title} subTitle={item.data} />
           );
@@ -25,7 +22,6 @@ const SubMenu = () => {
       </div>
       <div className={style.div2}>
         {data.slice(10, 14).map((item, key) => {
-          console.log("item is =", item);
           return (
             <SubMenuSec key={key} title={item.title} subTitle={item.data} />
           );
@@ -33,7 +29,6 @@ const SubMenu = () => {
       </div>
       <div className={style.div2}>
         {data.slice(14, 18).map((item, key) => {
-          console.log("item is =", item);
           return (
             <SubMenuSec key={key} title={item.title} subTitle={item.data} />
           );
