@@ -1,10 +1,12 @@
-import React from 'react'
-import Header from '../Header/Header'
+import Header from "../Header/Header.jsx"
+import Content from '../Content/Content'
 
 const Landing = () => {
   return (
     <div>
         <Header/>
+        <Content />
+        
     </div>
   )
 }

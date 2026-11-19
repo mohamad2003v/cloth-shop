@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import "./App.css"
-import Landing from './Landing/Landing'
+import Landing from "./App/Landing/Landing.jsx"
 
 function App() {
 
