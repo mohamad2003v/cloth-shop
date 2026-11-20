@@ -1,4 +1,4 @@
-import Slider from "../Slider/Slider"
+import Header from "../Header/Header.jsx"
 
 const Content = () => {
   return (
