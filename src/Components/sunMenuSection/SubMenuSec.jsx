@@ -2,7 +2,6 @@ import { LeftArrow } from '../../icons/icon'
 import style from './subMenuSec.module.css'
 
 const SubMenuSec = ({title , subTitle}) => {
-  console.log("title is =",title)
   return (
     <div className={style.div}>
         <h4 className={style.h4}>{title} <LeftArrow/></h4>
