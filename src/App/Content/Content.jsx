@@ -1,9 +1,9 @@
-import Header from "../Header/Header.jsx"
+import Slider from "../Slider/Slider"
 
 const Content = () => {
   return (
     <div>
-        <Header />
+        <Slider />
     </div>
   )
 }
